@@ -9,7 +9,7 @@
 
 <script>
 let year = parseInt(prompt("What is your year of birth (YYYY): "));
-let salary = parseInt(prompt("What is your current salary: "));
+let salary = parseInt(prompt("What is your current salary (please enter numbers only): "));
 
 if(year>2000 && year<2004){
     salary = ((5/100)*salary)+salary;
